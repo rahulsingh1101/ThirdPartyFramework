@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
   spec.author             = { "rahulsingh1101" => "rkssingh566@gmail.com" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/rahulsingh1101/ThirdPartyFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "ThirdPartyFramework/**/*.{h,m,c}"
+  spec.source_files  = "ThirdPartyFramework/**/*.{h,m,c,swift}"
 
 end
