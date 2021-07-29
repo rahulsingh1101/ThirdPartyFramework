@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1FD47E4F26B2970500C14F0A /* ThirdPartyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD47E4D26B2970500C14F0A /* ThirdPartyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FD47E5626B2972300C14F0A /* libMyStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD47E5526B2972300C14F0A /* libMyStaticLib.a */; };
 		1FD47E5826B2972C00C14F0A /* CallStaticLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD47E5726B2972C00C14F0A /* CallStaticLib.swift */; };
 /* End PBXBuildFile section */
 
@@ -16,7 +15,6 @@
 		1FD47E4A26B2970500C14F0A /* ThirdPartyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThirdPartyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD47E4D26B2970500C14F0A /* ThirdPartyFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdPartyFramework.h; sourceTree = "<group>"; };
 		1FD47E4E26B2970500C14F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FD47E5526B2972300C14F0A /* libMyStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMyStaticLib.a; sourceTree = "<group>"; };
 		1FD47E5726B2972C00C14F0A /* CallStaticLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallStaticLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -25,7 +23,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FD47E5626B2972300C14F0A /* libMyStaticLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,7 +48,6 @@
 		1FD47E4C26B2970500C14F0A /* ThirdPartyFramework */ = {
 			isa = PBXGroup;
 			children = (
-				1FD47E5526B2972300C14F0A /* libMyStaticLib.a */,
 				1FD47E4D26B2970500C14F0A /* ThirdPartyFramework.h */,
 				1FD47E5726B2972C00C14F0A /* CallStaticLib.swift */,
 				1FD47E4E26B2970500C14F0A /* Info.plist */,

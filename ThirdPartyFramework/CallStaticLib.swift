@@ -13,7 +13,7 @@ public class CallStaticLib: NSObject {
         super.init()
     }
     
-    public func callStaticLib() {
-        functionA()
+    public static func callStaticLib() -> String {
+        "Call from framework"
     }
 }
