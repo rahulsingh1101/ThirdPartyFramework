@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import MyStaticLib
 
 public class CallStaticLib: NSObject {
     public override init() {

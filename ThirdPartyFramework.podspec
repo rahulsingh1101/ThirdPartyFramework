@@ -10,8 +10,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/rahulsingh1101/ThirdPartyFramework.git", :tag => "#{spec.version}" }
   spec.source_files  = "ThirdPartyFramework"
- spec.library = 'MyStaticLib'
-spec.public_header_files = "MyStaticLib.swiftmodule"
+ #spec.library = 'MyStaticLib'
+#spec.public_header_files = "MyStaticLib.swiftmodule"
 
 
 
